@@ -1,4 +1,4 @@
-# extractPriceAndProductFromTicketx
+# extractPriceAndProductFromTicket
 extractApi is an API that extracts prices and product names from an image and retains them in a Json table. The input is an image and the output is a json.
 Example of configuration via Postman :
 1- Input
