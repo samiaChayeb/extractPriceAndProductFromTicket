@@ -10,9 +10,6 @@ app = Flask(__name__)
 # Define the API route
 @app.route('/api', methods=['POST'])
 def api():
-    # Path to the Tesseract executable (change if necessary)
-    pytesseract.pytesseract.tesseract_cmd = r'C:\Users\s.chayeb\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
-
     # Get the uploaded image from the request
     # Preprocess the image
     image = request.files['image']
